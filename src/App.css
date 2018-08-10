@@ -1,0 +1,101 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-Qatar {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.App-squares {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App-days,
+.App-hours,
+.App-minutes,
+.App-seconds, {
+    width: 200px;
+    height: 200px;
+    background: #F5F8FA;
+}
+
+.App-days {
+    background-color: beige;
+    width: 100px;
+    border: 1px solid green;
+    padding: 25px;
+    margin: 25px;
+    border-style: ridge;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}   
+
+.App-hours {
+    background-color: beige;
+    width: 100px;
+    border: 1px solid green;
+    padding: 25px;
+    margin: 25px;
+    border-style: ridge;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.App-minutes {
+    background-color: beige;
+    width: 100px;
+    border: 1px solid green;
+    padding: 25px;
+    margin: 25px;
+    border-style: ridge;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.App-seconds {
+    background-color: beige;
+    width: 100px;
+    border: 1px solid green;
+    padding: 25px;
+    margin: 25px;
+    border-style: ridge;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.App-countdown-area {
+  text-align: center;
+}
